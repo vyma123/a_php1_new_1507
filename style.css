@@ -1,0 +1,287 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 6rem !important;
+}
+
+.flex_b {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+header {
+    padding: 1rem;
+    border: 1px solid #aba7a7;
+    box-shadow: 2px 2.5px #807b7b2d;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    margin-left: 0 !important;
+}
+
+header .menu a {
+    font-weight: 800 !important;
+}
+
+header .menu>a:hover {
+    color: #fff !important;
+    background: #2185d0 !important;
+}
+
+
+
+.filter_box {
+    display: flex;
+    align-items: center;
+}
+
+.filter_box>div {
+    margin-right: 1.3rem !important;
+
+}
+
+.filter_box div>div {
+    padding-right: 0 !important;
+
+}
+
+.filter_box div div>.title {
+    display: flex !important;
+    gap: 3rem !important;
+}
+
+.filter_box .filter {
+    height: 41px;
+}
+
+.filter {
+    flex-grow: 1;
+}
+
+.table_box {
+    margin-top: 1.2rem;
+}
+
+.left_head>a {
+    margin-right: .5rem !important;
+}
+
+#add_box_modal {
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%);
+}
+
+#edit_box_modal {
+    top: 5%;
+}
+
+.form_add_box {
+    margin-left: 2rem;
+}
+
+.form_add_box>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_add_box div>input {
+    margin-right: 30rem;
+}
+
+.form-control {
+    margin: 1rem;
+    border: 1px solid #8e8989;
+    outline: none;
+    height: 30px;
+    width: 300px;
+}
+
+.form_add_box .actions {
+    justify-content: unset !important;
+    float: right;
+    padding: 0.5rem;
+}
+
+.btn_delete {
+    border: none;
+    outline: none;
+    background: #fff;
+    cursor: pointer;
+    color: unset;
+}
+
+.btn_edit {
+    border: none;
+    outline: none;
+    background: #fff;
+    cursor: pointer;
+    color: unset;
+}
+
+.search_input {
+    border-radius: 0 !important;
+    border-right: none !important;
+    width: 700px;
+    height: 40px;
+}
+
+.search_input:focus+.search_btn {
+    border-color: #85b7d9 !important;
+
+}
+
+.search_btn {
+    border: 1px solid rgba(34, 36, 38, .15) !important;
+    outline: 0;
+    border-radius: 0 .28571429rem .28571429rem 0 !important;
+    border-left: none !important;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.search_btn:hover {
+    background: none !important;
+}
+
+.search_btn i {
+    font-size: 16px;
+    background: #767676;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+
+select {
+    border-radius: .28571429rem;
+}
+
+.asc {
+    padding: 0 1rem 0 1rem !important;
+}
+
+.cate {
+    padding: 0 3.2rem 0 1rem !important;
+}
+
+.tag {
+    padding: 0 3.2rem 0 1rem !important;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.box_pagination {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#add_box_modal {
+    height: 650px;
+}
+
+.a {
+    text-align: center;
+}
+
+.er {
+    font-size: 5rem;
+}
+
+.back {
+    font-size: 1rem;
+    background: #e0e1e2 none;
+    color: rgba(0, 0, 0, .6);
+    padding: .78571429em 1.5em .78571429em;
+}
+
+.footer_property {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.field img {
+    height: 80px;
+    object-fit: cover;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 2rem;
+}
+
+.gallery-images .gallery-image img {
+    height: 80px;
+    object-fit: cover;
+
+}
+
+.gallery-image.selected {
+    border: 2px solid blue;
+}
+
+label {
+    font-size: 1.2rem !important;
+}
+
+.field {
+    margin-bottom: 1.6rem !important;
+}
+
+.warning {
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+label {
+    font-size: 1.2rem !important;
+}
+
+.field {
+    margin-bottom: 1.6rem !important;
+}
+
+.images_gallery {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.images_gallery img {
+    object-fit: cover;
+}
+
+
+.required {
+    color: #4544447a;
+}
